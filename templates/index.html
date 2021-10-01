@@ -34,90 +34,78 @@
             <br>
             <br><button style="font:white" id="sub" type="submit ">Calculate the Selling Price</button>
             <br>
-
-
-
-
         </form>
-
-
-
         <br><br><h3 style="font-size: 25px; font-family: sans-serif; font-weight: bold;color:#0653FD ;">{{ prediction_text }}<h3>
     </div>
 
     <style>
+         .input_field {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          border: 2px solid rgb(6, 88, 253);
+          border-radius: 4px;
+          box-sizing: border-box;
+          font-size: 20px;
+        }
 
- .input_field {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  border: 2px solid rgb(6, 88, 253);
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 20px;
-}
+        select {
+          width: 100%;
+          min-width: 15ch;
+          max-width: 30ch;
+          border: 1px solid var(--select-border);
+          border-radius: 0.25em;
+          padding: 0.25em 0.5em;
+          font-size: 1.25rem;
+          cursor: pointer;
+          line-height: 1.1;
+          background-color: #fff;
+          background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+        }
 
+        div {
+          position: relative;
+          margin: 2rem auto;
+          max-width: 70rem;
+          /* height: 45vh; */
+          border-radius: 12px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          padding: 2rem;
+          background-color: #ffffff;
+        }
 
-select {
-  width: 100%;
-  min-width: 15ch;
-  max-width: 30ch;
-  border: 1px solid var(--select-border);
-  border-radius: 0.25em;
-  padding: 0.25em 0.5em;
-  font-size: 1.25rem;
-  cursor: pointer;
-  line-height: 1.1;
-  background-color: #fff;
-  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
-}
+        button {
+          background: rgb(0, 85, 255);
+          color: #ffffff;
+          cursor: pointer;
+          padding: 1rem;
+          border-radius: 5px;
+          border: 1px solid rgb(0, 85, 255);
+          font-size: 20px;
+        }
+        
+        button:hover {
+          background: #ffffff;
+          color: #000000;
+          padding:1.2rem;
+          border-radius: 5px;
+          border: 1px solid rgb(0, 85, 255);
+          transition: 0.3s;
+          font-size: 20px;
 
-div {
-  position: relative;
-  margin: 2rem auto;
-  max-width: 70rem;
-  /* height: 45vh; */
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  padding: 2rem;
-  background-color: #ffffff;
-}
+        }
+        
+        button:active{
+          background:#ffffff;
+          color: #000000;
+          border-color: #ffffff;
+          padding:1.2rem;
+          border: 1px solid rgb(0, 85, 255);
 
-button {
-  background: rgb(0, 85, 255);
-  color: #ffffff;
-  cursor: pointer;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid rgb(0, 85, 255);
-  font-size: 20px;
-}
-button:hover {
-  background: #ffffff;
-  color: #000000;
-  padding:1.2rem;
-  border-radius: 5px;
-  border: 1px solid rgb(0, 85, 255);
-  transition: 0.3s;
-  font-size: 20px;
- 
-}
-button:active{
-  background:#ffffff;
-  color: #000000;
-  border-color: #ffffff;
-  padding:1.2rem;
-  border: 1px solid rgb(0, 85, 255);
-
-  transition: 0.3s;
-  font-size: 20px;
-}
+          transition: 0.3s;
+          font-size: 20px;
+        }
     </style>
-
-
-
-
-    
+        
 </body>
-
 </html>
