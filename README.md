@@ -10,7 +10,7 @@ parameteres for calculating the best price.
 3. Owner number
 4. Purchase price
 
-Project snapshot -
+## Project snapshot -
 ![alt text](https://github.com/kavyanshpandey/Colloquium/blob/main/ml2.PNG)
 
 
