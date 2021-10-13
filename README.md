@@ -9,7 +9,7 @@ parameteres for calculating the best price.
 2. Number of cylinder
 3. Owner number
 4. Purchase price
-
+5. Model of car
 Project snapshot -
 ![alt text](https://github.com/kavyanshpandey/Colloquium/blob/main/ml2.PNG)
 
