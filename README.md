@@ -1,6 +1,6 @@
 # Colloquium 
 # Car Price Prediction System
-This is for MCA final semester. VSICS
+Hello everyone, This project is for MCA final semester. VSICS
 
 # About Project
 Users can input thier old car details and it will return the best re-selling price for thier cars.  
@@ -12,5 +12,7 @@ parameteres for calculating the best price.
 
 Project snapshot -
 ![alt text](https://github.com/kavyanshpandey/Colloquium/blob/main/ml2.PNG)
+
+## Thank you!
 
 
