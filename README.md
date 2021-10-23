@@ -4,7 +4,7 @@ This is for MCA final semester. VSICS
 
 # About Project
 Users can input thier old car details and it will return the best re-selling price for thier cars.  
-parameteres for calculating the best price.
+Parameteres for calculating the best price.
 1. Emission Type
 2. Number of cylinder
 3. Owner number
