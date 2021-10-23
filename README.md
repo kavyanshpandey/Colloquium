@@ -1,6 +1,6 @@
 # Colloquium 
 # Car Price Prediction System
-This is for MCA final semester. VSICS
+This is for MCA final semester Students. VSICS
 
 # About Project
 Users can input thier old car details and it will return the best re-selling price for thier cars.  
