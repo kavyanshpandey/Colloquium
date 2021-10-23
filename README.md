@@ -3,8 +3,8 @@
 This is for MCA final semester. VSICS
 
 # About Project
-Users can input thier old car details and it will return the best re-selling price for thier cars.  
-parameteres for calculating the best price.
+Users can enter the details of their old cars, and the system will return the best re-selling price for their vehicles. 
+parameters for determining the optimum price.
 1. Emission Type
 2. Number of cylinder
 3. Owner number
