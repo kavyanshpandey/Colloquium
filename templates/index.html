@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--given the title of the page-->
+    <title>Drive through</title>
 </head>
-
-<body bgcolor="#0653FD">
+    <!--added a background image-->
+<body background="https://www.codehousegroup.com/-/media/codehouse-website/site-tree/home/insight-and-inspiration/events/drive-3-december.jpg?h=500&iar=0&w=1000&hash=4390E584EE3F03B805329AAA8748A5DD">
     <div>
         <form class=".first_div" action="{{ url_for('predict')}}" method="post">
             <h2 style="font-size: 40px; font-family: sans-serif;">Predictive analysis</h2>
@@ -19,7 +19,8 @@
             <h3 style="font-size: 25px; font-family: sans-serif;">What Is the Fuel type?</h3><br><select class="input_field" name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
-                <option value="Diesel">CNG</option>
+                <option value="CNG">CNG</option>
+                <option value="electric">Electric Car</option>
             </select>
             <h3 style="font-size: 25px; font-family: sans-serif;">Are you A Dealer or Individual</h3><br><select class="input_field" name="Seller_Type_Individual" id="resea" required="required">
                 <option value="Dealer">Dealer</option>
@@ -48,8 +49,6 @@
   box-sizing: border-box;
   font-size: 20px;
 }
-
-
 select {
   width: 100%;
   min-width: 15ch;
@@ -63,7 +62,6 @@ select {
   background-color: #fff;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
-
 div {
   position: relative;
   margin: 2rem auto;
@@ -74,7 +72,6 @@ div {
   padding: 2rem;
   background-color: #ffffff;
 }
-
 button {
   background: rgb(0, 85, 255);
   color: #ffffff;
@@ -92,7 +89,6 @@ button:hover {
   border: 1px solid rgb(0, 85, 255);
   transition: 0.3s;
   font-size: 20px;
- 
 }
 button:active{
   background:#ffffff;
@@ -105,11 +101,5 @@ button:active{
   font-size: 20px;
 }
     </style>
-
-
-
-
-    
 </body>
-
 </html>
