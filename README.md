@@ -1,5 +1,5 @@
 # Colloquium 
-# Car Price Prediction System
+# Car Price Prediction System.
 This is for MCA final semester. VSICS
 
 # About Project
@@ -12,5 +12,5 @@ parameteres for calculating the best price.
 
 Project snapshot -
 ![alt text](https://github.com/kavyanshpandey/Colloquium/blob/main/ml2.PNG)
-
+Thank You.
 
