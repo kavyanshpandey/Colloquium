@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drive Through</title>
 </head>
 
-<body bgcolor="#0653FD">
+<body bgcolor="https://i.pinimg.com/originals/0e/13/c0/0e13c0a0c04befda2b72c1d5754a2368.jpg">
     <div>
         <form class=".first_div" action="{{ url_for('predict')}}" method="post">
             <h2 style="font-size: 40px; font-family: sans-serif;">Predictive analysis</h2>
             <h3 style="font-size: 25px; font-family: sans-serif;">Year</h3>
-            <input class="input_field" id="first" name="Year" type="number ">
+            <input class="input_field" id="first" name="Year" type="number">
             <h3 style="font-size: 25px; font-family: sans-serif;">What is the Showroom Price?(In lakhs)</h3><br><input class="input_field" id="second" name="Present_Price" required="required">
             <h3 style="font-size: 25px; font-family: sans-serif;">How Many Kilometers Drived?</h3><input class="input_field" id="third" name="Kms_Driven" required="required">
             <h3 style="font-size: 25px; font-family: sans-serif;">How much owners previously had the car(0 or 1 or 3) ?</h3><br><input class="input_field" id="fourth" name="Owner" required="required">
@@ -20,6 +20,7 @@
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
                 <option value="Diesel">CNG</option>
+            <option value="Electric">Electric Car</option>
             </select>
             <h3 style="font-size: 25px; font-family: sans-serif;">Are you A Dealer or Individual</h3><br><select class="input_field" name="Seller_Type_Individual" id="resea" required="required">
                 <option value="Dealer">Dealer</option>
@@ -104,7 +105,7 @@ button:active{
   transition: 0.3s;
   font-size: 20px;
 }
-    </style>
+        </style>
 
 
 
